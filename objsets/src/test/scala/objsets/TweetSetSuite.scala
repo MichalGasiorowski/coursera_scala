@@ -61,6 +61,8 @@ class TweetSetSuite extends FunSuite {
       assert(size(set1.union(set5)) === 4)
     }
   }
+  
+  
 
   test("descending: set5") {
     new TestSets {
